@@ -72,7 +72,7 @@ void MainWindow::on_lineCommand_returnPressed()
 
 void MainWindow::onDisconnected()
 {
-    ui->pushConnect->setText("Connetti");
+    ui->pushConnect->setText("Connect");
     ui->lineAddress->setEnabled(true);
     ui->spinPort->setEnabled(true);
     ui->lineCommand->setEnabled(false);
@@ -80,7 +80,7 @@ void MainWindow::onDisconnected()
 
 void MainWindow::onConnected()
 {
-    ui->pushConnect->setText("Disconnetti");
+    ui->pushConnect->setText("Disconnect");
     ui->lineAddress->setEnabled(false);
     ui->spinPort->setEnabled(false);
     ui->lineCommand->setEnabled(true);
