@@ -6,3 +6,4 @@ It's a fork of ludovicodepetris/qkterm as it is.
 
 Only thing I did is translated "Connect" button and added a .pro file for simpler build
 
+You need to have a Qt5 to build this
